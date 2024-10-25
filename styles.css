@@ -39,3 +39,8 @@ border:1px solid greenyellow;
 .categoria h2 {
 color: #936b20;
 }
+
+.descricao {
+    padding-left: 700px;
+    font-size: 20px;
+}
