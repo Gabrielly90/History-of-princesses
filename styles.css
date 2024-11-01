@@ -1,4 +1,4 @@
-body{
+body {
 color: #936b20;
 background:rgb(243, 231, 231);
 margin:0px ;
@@ -13,9 +13,11 @@ font-size:25px;
 
 
 .chamada {
-    background:#dfc8d3;
-padding-bottom: 40px;
-padding-top: 30px; 
+background:#dfc8d3;
+display: flex;
+font-size: 24px;
+text-align: justify;
+gap: 20px;
 }
 
 .categoria-videos{
