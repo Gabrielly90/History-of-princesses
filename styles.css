@@ -1,47 +1,48 @@
-body{
-    color: #936b20;
-    background:rgb(243, 231, 231);
-    margin:0px ;
-    margin-bottom:100px;
-    }
-    
-    header {
-    border-bottom: solid 3px rgb(191,154,101);
-    padding: 10px;
-    font-size:25px;
-    }
-    
-    
-    .chamada {
-        background:#dfc8d3;
-    padding-bottom: 40px;
-    padding-top: 30px; 
-    }
-    
-    .categoria-videos{
-        display: flex;
-        overflow-x: auto;
-        gap:10px
-    }
-    .categoria {
-        padding-left:10px;
-        padding-right:10px;
-        margin-top:100px;
-    }
-    .categoria-videos img {
-        opacity: 0.5;
-        height:120px;
-    }
-    .categoria-videos img:hover {
-    opacity:2.0;
-    border:1px solid greenyellow;
-    }
-    .categoria h2 {
-    color: #936b20;
-    }
-    
-    .descricao {
-        padding-left:800px;
-        font-size:30px;
-    font-family:"Dancing Script", cursive;
-    }
+body {
+color: #936b20;
+background:rgb(243, 231, 231);
+margin:0px ;
+margin-bottom:100px;
+}
+
+header {
+border-bottom: solid 3px rgb(191,154,101);
+padding: 20px;
+font-size:25px;
+}
+
+
+.chamada {
+background:#dfc8d3;
+display: flex;
+font-size: 24px;
+text-align: justify;
+gap: 20px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap:10px
+}
+.categoria {
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:100px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height:120px;
+}
+.categoria-videos img:hover {
+opacity:2.0;
+border:1px solid greenyellow;
+}
+.categoria h2 {
+color: #936b20;
+}
+
+.descricao {
+    padding-left: 700px;
+    font-size: 20px;
+}
